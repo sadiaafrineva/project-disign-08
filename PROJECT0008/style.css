@@ -1,0 +1,283 @@
+*{
+    padding:0px ;
+    margin:0px ;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4,  h5, h6,{
+    font-family: "Poppins", sans-serif;
+} 
+a{
+text-decoration: none;
+}
+A:hover{
+    text-decoration: none;
+}
+.headar{
+    width: 100%;
+    background: #f0FFF0;
+}
+ .headar .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+font-weight: 500;
+margin: 0px 0px 0px 30px;
+color: #000;
+transition: 1s ease-in;
+}
+.headar .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #21B573
+}
+.headar .navbar-expand-lg .navbar-nav .nav-link:focus {
+    color: #21B573
+}
+.headar .btn-success{
+padding: 10px 30px;
+margin:0px 0px 0px 30px;
+color: #FFF;
+background: #21B573;
+border: 1px solid #21B573;
+border-radius: 25px;
+font-size: 16px;
+font-weight: 400;
+transition: 1s ease-in;
+}
+
+.headar .btn-success:hover, .headar .btn-success:focus {
+    color: #21B573;
+background: transparent;
+border: 1px solid #21B573;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner-inner{
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+.banner-inner h5{
+font-size: 16px;
+font-weight: 400;
+color: #FD511A;
+}
+
+.banner-inner h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 1.3em;
+color: #000;
+margin: 15px 0px;
+}
+.banner-inner h1 span{
+color: #21B573;
+}
+.banner-inner p{
+    width: 63%;
+font-size: 16px;
+line-height: 1.7em;
+font-weight: 400;
+color: #000;
+}
+
+.banner-inner .btn-success{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 15px 0px 0px 0px;
+    color: #FFF;
+    background: #21B573;
+    border: 1px solid #21B573;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 1s ease-in;
+    }
+    
+    .banner-inner.btn-success:hover, .banner-inner .btn-success:focus {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+    }
+    .feature{
+        width: 100%;
+        padding: 80px 0px;
+    }
+
+    .inner-feature{
+        width: 100%;
+        padding: 60px 40px;
+        background: #F8FFFB;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .inner-feature:hover{
+        background: #FFF;
+box-shadow: 1px 2px 5px #ccc ;
+    }
+
+    .inner-feature .icons{
+        width: 66px;
+        height: 85px;
+         margin:0px 0px 25px ;
+
+    }
+
+    .inner-feature h4{
+        font-size: 24px;
+        line-height: 1.3em;
+        font-weight: 500;
+        color: #000;
+        margin: 0px;
+    }
+
+.inner-feature p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+    margin: 0px;
+}
+.online-course{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+
+.online-course h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 1.3em;
+color: #000;
+margin: 15px 0px 55px;
+text-align: center;
+}
+.online-course .card{
+padding: 20px;
+border: none;
+box-shadow: 1px 3px 5px #eee;
+border-radius: 20px;
+}
+.online-course .card .card-img-top{
+    border-radius: 20px;
+    margin: 0px 0px 10px;
+}
+
+.online-course .card .card-body{
+width: 100%;
+}
+
+.online-course .card .card-body h5{
+    font-size: 26px;
+    line-height: 1.3em;
+    font-weight: 600;
+    color: #413960;
+    
+}
+.online-course .card .card-body p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+    margin: 0px;
+}
+
+.online-course .card .card-body .btn-primary{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 25px 0px 35px 0px;
+    color: #FFF;
+    background: #21B573;
+    border: 1px solid #21B573;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 1s ease-in;
+    }
+    
+.online-course .card .card-body .btn-primary:hover , .online-course .card .card-body .btn-primary :focus {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+    }
+
+.online-course .card .card-body .icons{
+width: 16px;
+margin:0px  3px 0px 0px ;
+}
+
+.online-course .card .card-body .info{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #585859;
+    margin: 0px;
+}
+
+.testimonial{
+    width: 100%;
+    padding: 30px 0px 80px;
+}
+
+.testimonial h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #000;
+    margin: 15px 0px 55px;
+    text-align: center;
+    }
+.testimonial .client{
+width: 120px;
+height: 120px;
+border-radius: 100%;
+    }
+    .client-picture{
+    text-align: center;
+    }
+    
+
+.testimonial p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+    margin: 0px;
+}
+
+
+.footer {
+    width: 100%;
+    background: #282531;
+    padding: 40px 0px 20px;
+}
+
+.container{
+    max-width: 1320px;
+}
+.footer p{
+font-size: 16px;
+line-height: 1.7em;
+font-weight: 400;
+color: #fff;
+margin: 20px 21px 0px 0px;
+}
+.footer list{
+    width: 100%;
+    display: block;
+}
+ .list li{
+width: 100%;
+list-style: none;
+ }
+
+
+
+.list li a{
+    width: 100%;
+    color: #FFF;
+}
+
+
+
+   
